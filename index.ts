@@ -108,7 +108,7 @@ program
         const { user_age } = await prompt({
           type: 'number',
           name: 'user_age',
-          message: 'Ingresa el nombre',
+          message: 'Ingresa la edad',
         });
         const createdUser = new User({
           name: user_name,
